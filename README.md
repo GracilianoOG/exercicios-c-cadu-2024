@@ -1,5 +1,7 @@
 # Exercicios Feitos na Linguagem C
 
+Repositório criado com o intuito de armazenar todos os exercícios feitos na disciplina de Programação Estruturada. Servirá também como referência para qualquer colega que necessite revisar ou comparar as respostas.
+
 ## Estrutura Sequencial
 
 1. Elaborar um algoritmo para ler cinco valores reais, calcular e imprimir os números lidos e a média
