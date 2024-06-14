@@ -19,9 +19,12 @@ int main()
     printf("Informe a altura do cilindro: ");
     scanf("%f", &altura);
 
-    volume = PI * raio * raio * altura;
-
-    printf("Volume do cilindro: %.3f", volume);
+    if(raio > 0.0 && altura > 0.0) {
+        volume = PI * raio * raio * altura;
+        printf("Volume do cilindro: %.3f", volume);
+    } else {
+        printf("Raio e Altura devem ser maiores que zero!");
+    }
 
     return 0;
 }
