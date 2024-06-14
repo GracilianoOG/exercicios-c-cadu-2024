@@ -19,10 +19,10 @@ pela fórmula: V = 4/3 x Pi x R3.
 5. Elaborar um algoritmo para ler dois números inteiros (dividendo e divisor) e imprimir a seguinte
 saída:
 
-Divididendo:
-Divisor:
-Quociente:
-Resto:
+    - Divididendo:
+    - Divisor:
+    - Quociente:
+    - Resto:
 
 6. Elaborar um algoritmo para ler o saldo de uma aplicação e imprimir o saldo anterior, valor do
 reajuste e o novo saldo, considerando que o reajuste foi de 5%.
