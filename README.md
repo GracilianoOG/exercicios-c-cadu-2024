@@ -189,3 +189,117 @@ segundo grau levando-se em consideração os seguintes critérios:
 imprimir a raiz da equação;
 - Se delta for maior do que zero: imprimir a mensagem “Duas raízes reais diferentes.” e
 calcular e imprimir as raízes da equação.
+
+## Estrutura de Repetição
+
+1. Elaborar um algoritmo para ler 10 números positivos e imprimir a raiz quadrada de cada número.
+Para cada entrada de dados, deverá haver um trecho de proteção para que um número negativo não seja
+aceito.
+
+Obs: Utilizar o comando for (leitura dos 10 números positivos) e do … while (trecho de proteção).
+
+2. Chico tem 1.50 m e cresce 2 cm por ano, enquanto Juca tem 1.10 m e cresce 3 cm por ano. Elaborar um
+algoritmo para calcular e imprimir quantos anos serão necessários para que Juca seja maior do que Chico.
+
+Obs: Utilizar o comando while.
+
+3. Elaborar um algoritmo para calcular e imprimir a seguinte série abaixo.
+
+Obs: Utilizar o comando for.
+
+`S = 1/1 + 3/2 + 5/3 + 7/4 + ... + 99/50`
+
+4. Elaborar um algoritmo para ler o número de termos da série (N) e imprimir o valor da série abaixo.
+
+Obs: Utilizar o comando for.
+
+`S = 1 + 1/2 + 1/3 + 1/4 + ... + 1/N`
+
+5. Elaborar um algoritmo que leia números inteiros maiores ou iguais a zero e menores ou iguais a 10.
+
+Deve ser feita a proteção de dados no código. Calcule e imprima:
+
+- A quantidade de números digitados;
+- A média dos números pares;
+- O menor número digitado;
+- O maior número digitado.
+
+Obs: Finalizar a entrada de dados digitando o número –1 (flag) e utilizar o comando while para a leitura
+de dados e o comando do … while para a proteção de dados. Se nenhum número par for digitado, deve-se
+contornar o erro encaminhando uma mensagem ao usuário (“Nenhum número par foi digitado!“).
+
+6. No dia da estréia do filme Tropa de Elite 2, uma emissora de TV realizou uma pesquisa logo após o
+encerramento do filme. Cada espectador respondeu a um questionário no qual constava sua idade e a sua
+opinião em relação ao filme: Excelente – 3; Bom – 2; Regular – 1. Elaborar um algoritmo que receba a
+idade e a opinião de 12 espectadores, calcule e imprima:
+
+    - A média das idades das pessoas que responderam excelente;
+    - A quantidade de pessoas que responderam regular;
+    - A percentagem de pessoas que responderam bom entre todos os espectadores analisados.
+
+Obs: Utilizar o comando for.
+
+7. Elaborar um algoritmo que receba a idade e o estado civil (C – Casado, S – Solteiro, V – Viúvo e D –
+Desquitado ou Separado), lidos nessa ordem. Calcule e imprima:
+
+    - A quantidade de pessoas casadas com idade menor ou igual a 30 anos;
+    - A quantidade de pessoas solteiras com idade maior ou igual a 22 anos;
+    - A média das idades das pessoas viúvas;
+    - A porcentagem de pessoas desquitadas ou separadas dentre todas as pessoas analisadas.
+
+O algoritmo termina quando se digita um número igual a zero para a idade (flag). Se nenhuma pessoa
+viúva for digitada, deve-se contornar o erro apresentando uma mensagem ao usuário.
+
+Obs: Utilizar o comando while.
+
+8. Elaborar um algoritmo que leia 10 números inteiros e calcule o produto dos números pares e
+divisíveis por 5 maiores do que um número de referência qualquer digitado pelo usuário.
+
+Ex: Número de referência digitado pelo usuário: 9
+
+10 Números digitados pelo usuário: 5, 10, 9, 15, 20, 8, 10, 1, 12, 35
+
+Produto: 10 x 20 x 10 = 2000
+
+Obs: Utilizar o comando de repetição for.
+
+9. Elaborar um algoritmo que faça a tabuada de um número inteiro digitado pelo usuário, mas a tabuada
+não necessariamente deve iniciar em 1 e terminar em 10. Os valores inicial e final devem ser informados
+pelo usuário, conforme exemplo abaixo. Deve-se fazer a proteção de dados para que o usuário não digite
+um valor final menor do que o valor inicial.
+
+Montar a tabuada do número: 5
+Começa em: 4
+Temina em: 7
+
+Tabuada do número 5 começando em 4 e terminando em 7:
+
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+
+Obs: Utilizar o comando de repetição for.
+
+10. A série de Fetuccine é gerada da seguinte forma: os dois primeiros termos são números inteiros
+fornecidos pelo usuário; a partir daí, os termos seguintes são gerados com a soma ou subtração dos dois
+termos anteriores, ou seja:
+
+Ai = Ai-1 + Ai-2 para i ímpar
+Ai = Ai-1 – Ai-2 para i par
+
+Elaborar um algoritmo para imprimir os 20 primeiros termos da série de Fetuccine.
+
+Exemplo: Se os dois primeiros termos digitados forem 2 e 4, os 20 primeiros termos da série de Fetuccine
+serão: 2, 4, 6, 2, 8, 6, 14, 8, 22, 14, 36, 22, 58, 36, 94, 58, 152, 94, 246, 152
+
+Obs: Utilizar o comando de repetição for.
+
+11. Seja a seguinte característica do número 3025: 30 + 25 = 55 e 552 = 3025. Elaborar um algoritmo
+que possa ler vários números inteiros de 4 algarismos, um de cada vez e diga se o número apresenta a
+mesma característica. O algoritmo termina quando for lido um valor menor do que 1000 ou maior do que
+9999 (flag).
+
+Dica: 3025/100 = 30 com resto 25.
+
+Obs: Utilizar o comando de repetição while.
