@@ -27,6 +27,10 @@ int main()
             printf("Informe um valor inteiro positivo: ");
             scanf("%d", &num);
             qtdNum++;
+            if(num == -1 && qtdPares < 1) {
+                printf("Nenhum número par foi digitado!\n");
+                num = -2;
+            }
         } while((num < 0 && num != -1) || num > 10);
 
         if(num == -1) {
